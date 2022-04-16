@@ -1,1 +1,1 @@
-# sp22-recitation-08
+See `recitation-10.md`
