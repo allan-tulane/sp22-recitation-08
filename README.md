@@ -1,1 +1,1 @@
-See `recitation-10.md`
+See `recitation-08.md`
