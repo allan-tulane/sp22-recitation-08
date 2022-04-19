@@ -1,6 +1,6 @@
 # CMPS 2200  Recitation 08
 
-Today we'll learn more about graphs and how to navigate them. As usual, code goes in `main.py`, and short answer in `answers.md`.
+Today we'll learn more about graphs and how to navigate them. As usual, code goes in `main.py`
 
 
 **1** Let's assume we're using the "Map of Neighbors" representation for undirected graphs. The provided `make_undirected_graph` function will make a graph using this representation given a list of edge tuples. 
@@ -14,12 +14,6 @@ Complete the `reachable` implementation and test with `test_reachable`. Think ab
 .  
 .  
 .  
-
-
-**2** What is the work of `reachable`, assuming $n$ nodes and $m$ edges?
-
-**put answer in answers.md**  
-
 .  
 .  
 .  
@@ -27,38 +21,18 @@ Complete the `reachable` implementation and test with `test_reachable`. Think ab
 
 
 
-**3** Next, we will use the `reachable` function to determine if a graph is connected or not. Complete the `connected` function and test with `test_connected`.
+**2** Next, we will use the `reachable` function to determine if a graph is connected or not. Complete the `connected` function and test with `test_connected`.
 
 .  
-.  
-.  
-**4** What is the worst case number of times we need to call `reachable` to determine if a graph is connected?
-
-**put answer in answers.md**  
-
 .  
 .  
 .  
 
 
-**5** What is the work of `connected`, assuming $n$ nodes and $m$ edges?
-
-**put answer in answers.md**  
-
-.  
 .  
 .  
 
-**6** Next, we'll use `reachable` to determine the number of connected components in a graph. Complete `n_components` and test with `test_n_components`. Again, think about how to minimize the number of calles to `reachable` you must make.
+**3** Next, we'll use `reachable` to determine the number of connected components in a graph. Complete `n_components` and test with `test_n_components`. Again, think about how to minimize the number of calles to `reachable` you must make.
 
-.  
-.  
-.  
-
-**7** What if we switched the graph representation to an adjacency matrix? Would the work of `reachable` change? If so, what would it be? If not, why not?
-
-**put answer in answers.md**  
-
-.  
 .  
 .  
